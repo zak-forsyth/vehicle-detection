@@ -1,0 +1,11 @@
+background
+car
+truck
+bus
+van
+motorcycle
+bicycle
+police_car
+ambulance
+fire_truck
+delivery_truck

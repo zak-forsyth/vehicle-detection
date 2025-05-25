@@ -1,0 +1,22 @@
+{
+  "name": "@scrypted/vehicle-detection",
+  "version": "1.0.0",
+  "description": "Vehicle detection model for Scrypted using OpenVINO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scrypted",
+    "openvino", 
+    "vehicle-detection",
+    "police-car",
+    "delivery-truck"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "scrypted": {
+    "type": "ml-model",
+    "runtime": "openvino"
+  }
+}
