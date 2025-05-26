@@ -1,27 +1,6 @@
 {
-  "name": "Vehicle Detection",
-  "description": "Vehicle detection model with support for police cars and delivery trucks",
-  "version": "1.0.0",
-  "framework": "openvino",
-  "type": "detection",
-  "model": {
-    "xml": "vehicle-detection-adas-0002.xml",
-    "bin": "vehicle-detection-adas-0002.bin"
-  },
-  "input": {
-    "shape": [1, 3, 384, 672],
-    "layout": "NCHW",
-    "color_format": "BGR",
-    "mean": [0.0, 0.0, 0.0],
-    "std": [255.0, 255.0, 255.0]
-  },
-  "output": {
-    "detection_output": "detection_out"
-  },
-  "labels": [
+  "classes": [
     "background",
     "vehicle"
-  ],
-  "confidence_threshold": 0.5,
-  "nms_threshold": 0.4
+  ]
 }
